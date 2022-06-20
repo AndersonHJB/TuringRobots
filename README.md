@@ -1,8 +1,30 @@
 # TuringRobots
 
+## What?
+
 Simple dialogue test Turing robot.
 
-## 异常返回码
+## Install
+
+```cmd
+pip install TuringRobots
+```
+
+## Usage
+
+```python
+from TuringRobots import TuringRobots
+
+while True:
+    userinput = input(":>>>")
+    if userinput == "0":
+        break
+    else:
+        code, content = TuringRobots(userinput, over_print=False)
+        print("回答:", content)
+```
+
+## Exception return code
 
 | 5000 | 无解析结果                |
 | ---- | ------------------------- |

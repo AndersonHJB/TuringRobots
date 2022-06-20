@@ -3,6 +3,9 @@ MANIFEST.in
 README.md
 requirements.txt
 setup.py
+TuringRobots/TuringRobots.py
+TuringRobots/__init__.py
+TuringRobots/__version__.py
 TuringRobots.egg-info/PKG-INFO
 TuringRobots.egg-info/SOURCES.txt
 TuringRobots.egg-info/dependency_links.txt
