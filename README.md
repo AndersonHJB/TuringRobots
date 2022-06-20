@@ -60,3 +60,7 @@ while True:
 >   AI悦创·推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！微信：Jiabcdefh
 >
 >   C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/9f65e7474853438f8802ad22b9a9a655.png)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/e4203b03af1a4d61865d73d38f26db1e.png)

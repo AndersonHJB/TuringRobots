@@ -22,11 +22,11 @@ URL = 'https://github.com/AndersonHJB/TuringRobots'
 EMAIL = 'bornforthis@bornforthis.cn'
 AUTHOR = 'Bornforthis'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.2.6'
+VERSION = '1.2.7'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-	'dotenv==0.0.5',
+	# 'dotenv==0.0.5',
 ]
 
 # What packages are optional?
