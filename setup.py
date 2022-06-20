@@ -22,7 +22,7 @@ URL = 'https://github.com/AndersonHJB/TuringRobots'
 EMAIL = 'bornforthis@bornforthis.cn'
 AUTHOR = 'Bornforthis'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.2.9'
+VERSION = '1.2.12'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -111,7 +111,7 @@ setup(
 	python_requires=REQUIRES_PYTHON,
 	url=URL,
 	# packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
-	# packages=find_packages(exclude=["TuringRobots", ]),
+	# packages=find_packages(exclude=["TuringRobots", "TuringRobots.*", "*.TuringRobots", "*.TuringRobots.*"]),
 	packages=find_packages(include=["TuringRobots",]),
 	# If your package is a single module, use this instead of 'packages':
 	# py_modules=['mypackage'],

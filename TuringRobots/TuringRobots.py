@@ -7,8 +7,8 @@
 import json
 import urllib.request
 import os
-# from dotenv import load_dotenv
-
+from .req import req
+API = req()
 
 def TuringRobots(text, over_print=True):
 	"""
@@ -16,7 +16,6 @@ def TuringRobots(text, over_print=True):
 	:param over_print:
 	:return:
 	"""
-	# load_dotenv()
 	api_url = "http://openapi.tuling123.com/openapi/api/v2"
 	req = {
 		"reqType": 0,
@@ -38,8 +37,7 @@ def TuringRobots(text, over_print=True):
 			},
 		"userInfo":
 			{
-				"apiKey": "27f4569b10c84a73aadb819b3b3598b0",
-				# "apiKey": os.getenv("API_KEY"),
+				"apiKey": API,
 				"userId": "OnlyUseAlphabet"
 			}
 	}
