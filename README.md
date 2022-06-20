@@ -10,7 +10,7 @@ Simple dialogue test Turing robot.
 pip install TuringRobots
 ```
 
-## Usage
+## Usage/Example
 
 ```python
 from TuringRobots import TuringRobots
@@ -46,4 +46,3 @@ while True:
 | 8008 | 服务器错误                |
 | 0    | 上传成功                  |
 
-![image-20220618124630403](README.assets/image-20220618124630403.png)
