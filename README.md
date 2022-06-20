@@ -46,3 +46,7 @@ while True:
 | 8008 | 服务器错误                |
 | 0    | 上传成功                  |
 
+## ChangeLog
+
+-   Put forward the idea of「提出想法」：June 18, 2022「2022年06月18日」
+-   Starting date「首发日期」：June 20, 2022「2022年06月20日」
