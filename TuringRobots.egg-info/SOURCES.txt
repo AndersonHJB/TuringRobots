@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+TuringRobots.egg-info/PKG-INFO
+TuringRobots.egg-info/SOURCES.txt
+TuringRobots.egg-info/dependency_links.txt
+TuringRobots.egg-info/requires.txt
+TuringRobots.egg-info/top_level.txt
+tests/TuringRobots_Tests.py
+tests/__init__.py
