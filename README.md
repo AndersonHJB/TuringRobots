@@ -61,6 +61,6 @@ while True:
 >
 >   C++ 信息奥赛题解，长期更新！长期招收一对一中小学信息奥赛集训，莆田、厦门地区有机会线下上门，其他地区线上。微信：Jiabcdefh
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9f65e7474853438f8802ad22b9a9a655.png)
+![在这里插入图片描述](https://github.aiyc.top/aiyccdn/auto_img/202206202010982.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/e4203b03af1a4d61865d73d38f26db1e.png)
+![在这里插入图片描述](https://github.aiyc.top/aiyccdn/auto_img/202206202010766.png)
