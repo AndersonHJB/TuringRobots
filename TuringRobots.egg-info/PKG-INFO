@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: TuringRobots
-Version: 1.1.0
+Version: 1.2.1
 Summary: Simple dialogue test Turing robot.
 Home-page: https://github.com/AndersonHJB/TuringRobots
 Author: Bornforthis
@@ -43,4 +43,4 @@ Simple dialogue test Turing robot.
 | 8008 | 服务器错误                |
 | 0    | 上传成功                  |
 
-![image-20220618124630403](./README.assets/image-20220618124630403.png)
+![image-20220618124630403](README.assets/image-20220618124630403.png)

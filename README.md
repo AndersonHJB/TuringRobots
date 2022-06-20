@@ -24,4 +24,4 @@ Simple dialogue test Turing robot.
 | 8008 | 服务器错误                |
 | 0    | 上传成功                  |
 
-![image-20220618124630403](./README.assets/image-20220618124630403.png)
+![image-20220618124630403](README.assets/image-20220618124630403.png)

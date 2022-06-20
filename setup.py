@@ -22,11 +22,11 @@ URL = 'https://github.com/AndersonHJB/TuringRobots'
 EMAIL = 'bornforthis@bornforthis.cn'
 AUTHOR = 'Bornforthis'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.1.0'
+VERSION = '1.2.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-	'dotenv',
+	# 'dotenv==0.0.5',
 ]
 
 # What packages are optional?
@@ -84,7 +84,10 @@ class UploadCommand(Command):
 			pass
 
 		self.status('Building Source and Wheel (universal) distribution…')
-		os.system('{0} setup.py sdist bdist_wheel --universal'.format(sys.executable))
+		os.system('python3 -m build')
+		# os.system('{0} setup.py sdist bdist_wheel --universal'.format(sys.executable))
+		# os.system('{0} setup.py sdist build --universal'.format(sys.executable))
+		# os.system('{0} setup.py sdist build --universal'.format(sys.executable))
 
 		self.status('Uploading the package to PyPI via Twine…')
 		os.system('twine upload dist/*')
@@ -118,7 +121,8 @@ setup(
 	# },
 	install_requires=REQUIRED,
 	setup_requires=['pytest-runner'],
-	tests_require=['pytest', 'dotenv'],
+	tests_require=['pytest'],
+	# tests_require=['pytest', 'dotenv'],
 	test_suite='tests',
 	extras_require=EXTRAS,
 	include_package_data=True,
