@@ -9,6 +9,11 @@ import urllib.request
 import os
 
 def TuringRobots(text, over_print=True):
+	"""
+	:param text:
+	:param over_print:
+	:return:
+	"""
 	# load_dotenv()
 	api_url = "http://openapi.tuling123.com/openapi/api/v2"
 	req = {
@@ -53,6 +58,7 @@ def TuringRobots(text, over_print=True):
 		print('Turing的回答：')
 		print('code：' + str(intent_code))
 		print('text：' + results_text)
+		return None
 	else:
 		return (str(intent_code), results_text)
 
