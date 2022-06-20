@@ -22,7 +22,7 @@ URL = 'https://github.com/AndersonHJB/TuringRobots'
 EMAIL = 'bornforthis@bornforthis.cn'
 AUTHOR = 'Bornforthis'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.2.2'
+VERSION = '1.2.4'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -120,8 +120,8 @@ setup(
 	#     'console_scripts': ['mycli=mymodule:cli'],
 	# },
 	install_requires=REQUIRED,
-	setup_requires=['pytest-runner'],
-	tests_require=['pytest'],
+	# setup_requires=['pytest-runner'],
+	# tests_require=['pytest'],
 	# tests_require=['pytest', 'dotenv'],
 	test_suite='tests',
 	extras_require=EXTRAS,

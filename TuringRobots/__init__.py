@@ -4,3 +4,4 @@
 # @FileName: __init__.py
 # @Software: PyCharm
 # @Blog    ：https://bornforthis.cn/
+from .TuringRobots import *
